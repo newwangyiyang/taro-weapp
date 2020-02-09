@@ -1,0 +1,9 @@
+.wrap {
+  padding-left: #{$maxMarginPadding}px;
+  height: 40vh;
+  @include getBgColor(6);
+
+  .text {
+    @include getColor(5);
+  }
+}
